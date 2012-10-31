@@ -2,7 +2,7 @@ Usage:
 
 1. 
 <a href="[fullsize image]" class="zoom">
-	<img src="[imagesrc]" />
+	<img src="[thumbnail]" />
 </a>
 
 2.
