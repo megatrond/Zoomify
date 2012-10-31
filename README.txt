@@ -13,3 +13,5 @@ $(document).ready(function() {
 		'opacity':0.3 //optional, default is 0.3
 	});
 });
+
+To see the plugin in action: http://dev.ghost.no/demo/trond/zoomify/example.html
