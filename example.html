@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Example for Zoomify</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+	<script src="zoomify.min.js" type="text/javascript"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.wrapper {
+			width: 600px;
+			margin: 0 auto;
+			margin-top: 60px;
+		}
+		.zoom {
+			width: 400px;
+			height: auto;
+			clear: both;
+			float: left;
+			cursor: crosshair;
+		}
+		img {
+			width: 100%;
+			float: left;
+		}
+	</style>
+	<script type="text/javascript">
+		$(function() {
+			$('.zoom').zoomify({
+				'width':500,
+				'height':500
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<a href="example.jpg" class="zoom">
+		<img src="example_thumb.jpg"></img>
+	</a>
+</div>
+</body>
+</html>
